@@ -5,3 +5,5 @@ create-requirements:
 install-requirements:
 	@pip install -r requirements/requirements.txt
 
+run:
+	@python manage.py runserver
